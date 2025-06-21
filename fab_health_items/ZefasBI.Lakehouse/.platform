@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "ZefasBI"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5808bedc-930e-a4c4-4917-12b2902f75ee"
+  }
+}
