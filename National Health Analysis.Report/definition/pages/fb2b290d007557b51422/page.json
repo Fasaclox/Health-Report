@@ -1,0 +1,67 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "fb2b290d007557b51422",
+  "displayName": "Patients Demographics",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Health1.jpg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Health13473979621098844.jpg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "f3c2a9832b3ecb0c62a1",
+      "target": "e0690a223a693ad3347b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "f3c2a9832b3ecb0c62a1",
+      "target": "18e95037deee92e474c4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "f3c2a9832b3ecb0c62a1",
+      "target": "b4e18beea0cba67316a7",
+      "type": "NoFilter"
+    }
+  ]
+}
